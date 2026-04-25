@@ -1,0 +1,86 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+*.coverprofile
+
+# Go workspace file
+go.work
+go.sum
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+.DS_Store
+
+# Config files
+.opencode.json
+.opencode/
+config/
+*.key
+*.pem
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+opencode-advanced
+opencode-advanced.exe
+dist/
+build/
+bin/
+
+# Credentials and Secrets
+secrets/
+*.pem
+*.key
+.credentials
+token.txt
+
+# Browser cache and profiles
+.chromium/
+.chrome/
+chrome-profile/
+
+# Project specific
+.opencode/
+.venv/
+venv/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Dependencies
+vendor/
